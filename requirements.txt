@@ -3,3 +3,4 @@ matplotlib==3.7.1
 filterpy
 scipy
 loguru
+scipy
