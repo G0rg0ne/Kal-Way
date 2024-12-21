@@ -80,8 +80,8 @@ def plot_spline_with_arrows(x, y,tangents,arrow_length=0.5):
 
 if __name__ == "__main__":
     # Define start and end points
-    start = (0, 5)
-    end = (10, 5)
+    start = (0, 30)
+    end = (30, 5)
     # Generate the spline and tangents
     x, y, tangents = generate_random_spline_with_tangents(start, end, num_waypoints=random.randint(1,10), seed=42)
     # Plot the spline with arrows
